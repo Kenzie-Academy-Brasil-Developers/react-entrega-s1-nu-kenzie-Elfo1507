@@ -1,0 +1,39 @@
+input {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+    height: 50px;
+    padding: 5px;
+}
+
+form {
+    padding: 10px;
+}
+
+.desc {
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.tipoValor {
+    display: flex;
+    align-items: center;
+}
+
+.valor {
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo {
+    height: 25px;
+}
+
+.enviar {
+    background-color: #FD377E;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+}

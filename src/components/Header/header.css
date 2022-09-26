@@ -1,0 +1,23 @@
+header {
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+
+header>div {
+    display: flex;
+}
+
+header>button {
+    background-color: #FD377E;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px;
+}

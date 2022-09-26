@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+}

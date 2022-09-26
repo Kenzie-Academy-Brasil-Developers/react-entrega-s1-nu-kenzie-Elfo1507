@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+}
+
+.textCard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.tipoEBtn {
+    display: flex;
+    align-items: center;
+}
+
+.valor {
+    margin-right: 20px;
+}

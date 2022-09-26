@@ -1,0 +1,31 @@
+main {
+    background-color: #212529;
+    height: 100vh;
+    padding: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.containerTitle {
+    display: flex;
+}
+
+.nu {
+    color: #FD377E;
+}
+
+.btn {
+    background-color: #FD377E;
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+.image {
+    width: 100%;
+}
