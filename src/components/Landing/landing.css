@@ -29,3 +29,15 @@ main {
 .image {
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image {
+        width: 100vh;
+    }
+}
